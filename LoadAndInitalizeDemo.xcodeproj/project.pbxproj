@@ -15,6 +15,14 @@
 		FD002AC2228AB52B00EE5767 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD002AC1228AB52B00EE5767 /* main.m */; };
 		FD002ACC228AB52B00EE5767 /* LoadAndInitalizeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD002ACB228AB52B00EE5767 /* LoadAndInitalizeDemoTests.m */; };
 		FD002AD7228AB52B00EE5767 /* LoadAndInitalizeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD002AD6228AB52B00EE5767 /* LoadAndInitalizeDemoUITests.m */; };
+		FD002AE7228AB58900EE5767 /* XMPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = FD002AE6228AB58900EE5767 /* XMPeople.m */; };
+		FD002AEA228AB5A100EE5767 /* XMMan.m in Sources */ = {isa = PBXBuildFile; fileRef = FD002AE9228AB5A100EE5767 /* XMMan.m */; };
+		FD002AED228AB5E500EE5767 /* XMMan+Category1.m in Sources */ = {isa = PBXBuildFile; fileRef = FD002AEC228AB5E500EE5767 /* XMMan+Category1.m */; };
+		FD002AF0228AB5FC00EE5767 /* XMMan+Category2.m in Sources */ = {isa = PBXBuildFile; fileRef = FD002AEF228AB5FC00EE5767 /* XMMan+Category2.m */; };
+		FD002AF3228AB60E00EE5767 /* XMPeople+Category1.m in Sources */ = {isa = PBXBuildFile; fileRef = FD002AF2228AB60E00EE5767 /* XMPeople+Category1.m */; };
+		FD002AF6228AB61900EE5767 /* XMPeople+Category2.m in Sources */ = {isa = PBXBuildFile; fileRef = FD002AF5228AB61900EE5767 /* XMPeople+Category2.m */; };
+		FD002AF9228AB9DD00EE5767 /* XMWoman.m in Sources */ = {isa = PBXBuildFile; fileRef = FD002AF8228AB9DD00EE5767 /* XMWoman.m */; };
+		FD002AFC228ABD2C00EE5767 /* XMAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = FD002AFB228ABD2C00EE5767 /* XMAnimal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,22 @@
 		FD002AD2228AB52B00EE5767 /* LoadAndInitalizeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadAndInitalizeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD002AD6228AB52B00EE5767 /* LoadAndInitalizeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadAndInitalizeDemoUITests.m; sourceTree = "<group>"; };
 		FD002AD8228AB52B00EE5767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD002AE5228AB58900EE5767 /* XMPeople.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPeople.h; sourceTree = "<group>"; };
+		FD002AE6228AB58900EE5767 /* XMPeople.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPeople.m; sourceTree = "<group>"; };
+		FD002AE8228AB5A100EE5767 /* XMMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMMan.h; sourceTree = "<group>"; };
+		FD002AE9228AB5A100EE5767 /* XMMan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMMan.m; sourceTree = "<group>"; };
+		FD002AEB228AB5E500EE5767 /* XMMan+Category1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMMan+Category1.h"; sourceTree = "<group>"; };
+		FD002AEC228AB5E500EE5767 /* XMMan+Category1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XMMan+Category1.m"; sourceTree = "<group>"; };
+		FD002AEE228AB5FC00EE5767 /* XMMan+Category2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMMan+Category2.h"; sourceTree = "<group>"; };
+		FD002AEF228AB5FC00EE5767 /* XMMan+Category2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XMMan+Category2.m"; sourceTree = "<group>"; };
+		FD002AF1228AB60E00EE5767 /* XMPeople+Category1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMPeople+Category1.h"; sourceTree = "<group>"; };
+		FD002AF2228AB60E00EE5767 /* XMPeople+Category1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XMPeople+Category1.m"; sourceTree = "<group>"; };
+		FD002AF4228AB61900EE5767 /* XMPeople+Category2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMPeople+Category2.h"; sourceTree = "<group>"; };
+		FD002AF5228AB61900EE5767 /* XMPeople+Category2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XMPeople+Category2.m"; sourceTree = "<group>"; };
+		FD002AF7228AB9DD00EE5767 /* XMWoman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMWoman.h; sourceTree = "<group>"; };
+		FD002AF8228AB9DD00EE5767 /* XMWoman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMWoman.m; sourceTree = "<group>"; };
+		FD002AFA228ABD2C00EE5767 /* XMAnimal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMAnimal.h; sourceTree = "<group>"; };
+		FD002AFB228ABD2C00EE5767 /* XMAnimal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMAnimal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +129,22 @@
 				FD002AB3228AB52A00EE5767 /* AppDelegate.m */,
 				FD002AB5228AB52A00EE5767 /* ViewController.h */,
 				FD002AB6228AB52A00EE5767 /* ViewController.m */,
+				FD002AFA228ABD2C00EE5767 /* XMAnimal.h */,
+				FD002AFB228ABD2C00EE5767 /* XMAnimal.m */,
+				FD002AE5228AB58900EE5767 /* XMPeople.h */,
+				FD002AE6228AB58900EE5767 /* XMPeople.m */,
+				FD002AF1228AB60E00EE5767 /* XMPeople+Category1.h */,
+				FD002AF2228AB60E00EE5767 /* XMPeople+Category1.m */,
+				FD002AF4228AB61900EE5767 /* XMPeople+Category2.h */,
+				FD002AF5228AB61900EE5767 /* XMPeople+Category2.m */,
+				FD002AE8228AB5A100EE5767 /* XMMan.h */,
+				FD002AE9228AB5A100EE5767 /* XMMan.m */,
+				FD002AEB228AB5E500EE5767 /* XMMan+Category1.h */,
+				FD002AEC228AB5E500EE5767 /* XMMan+Category1.m */,
+				FD002AEE228AB5FC00EE5767 /* XMMan+Category2.h */,
+				FD002AEF228AB5FC00EE5767 /* XMMan+Category2.m */,
+				FD002AF7228AB9DD00EE5767 /* XMWoman.h */,
+				FD002AF8228AB9DD00EE5767 /* XMWoman.m */,
 				FD002AB8228AB52A00EE5767 /* Main.storyboard */,
 				FD002ABB228AB52B00EE5767 /* Assets.xcassets */,
 				FD002ABD228AB52B00EE5767 /* LaunchScreen.storyboard */,
@@ -262,8 +302,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD002AB7228AB52A00EE5767 /* ViewController.m in Sources */,
+				FD002AFC228ABD2C00EE5767 /* XMAnimal.m in Sources */,
+				FD002AEA228AB5A100EE5767 /* XMMan.m in Sources */,
+				FD002AF0228AB5FC00EE5767 /* XMMan+Category2.m in Sources */,
+				FD002AF3228AB60E00EE5767 /* XMPeople+Category1.m in Sources */,
+				FD002AED228AB5E500EE5767 /* XMMan+Category1.m in Sources */,
+				FD002AF9228AB9DD00EE5767 /* XMWoman.m in Sources */,
+				FD002AE7228AB58900EE5767 /* XMPeople.m in Sources */,
+				FD002AF6228AB61900EE5767 /* XMPeople+Category2.m in Sources */,
 				FD002AC2228AB52B00EE5767 /* main.m in Sources */,
+				FD002AB7228AB52A00EE5767 /* ViewController.m in Sources */,
 				FD002AB4228AB52A00EE5767 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

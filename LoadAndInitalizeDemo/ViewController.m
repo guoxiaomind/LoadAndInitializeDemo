@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "XMMan.h"
+#import "XMWoman.h"
+#import "XMPeople.h"
+#import "XMAnimal.h"
 
 @interface ViewController ()
 
@@ -17,6 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//    XMPeople *people = [XMPeople new];
+    XMMan *man = [XMMan new];
+//    XMWoman *woman = [XMWoman new];
+
 }
 
 
